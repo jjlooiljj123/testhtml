@@ -3,7 +3,7 @@
     <tr> <th>Restaurant ID</th> <th>Restaurant Name</th> <th>Address</th> <th>Phone</th> </tr> 
     <tr> <th>0</th> <th>Subway Restaurant</th> <th>Menara Standard Chartered, TPM</th> <th>03-22441234</th> </tr> 
   <?php  
-$serverName = "simplewebtp048140.database.windows.net"; $connectionOptions = array( "Database" => "simpleweb", "Uid" => "simpleweb", "PWD" => "Simple@web"); 
+$serverName = "simplewebtp048140v2.database.windows.net"; $connectionOptions = array( "Database" => "simpleweb", "Uid" => "simpleweb", "PWD" => "Simple@web"); 
  
 //Establishes the connection $conn = sqlsrv_connect($serverName, $connectionOptions); 
  
